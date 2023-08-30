@@ -23,6 +23,9 @@ li {
   font-size: 16px;
   font-weight: 100;
   line-height: 19px;
+}
+
+li::first-letter {
   text-transform: capitalize;
 }
 
@@ -62,4 +65,8 @@ li {
 
 .d-flex .weather-temperature {
   display: flex;
+}
+
+#Fahrenheit {
+  text-decoration: none;
 }
